@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EB.HomeDevStudy.Main.View
 {
-    class Restart
+    class PlayerTurn
     {
     }
 }

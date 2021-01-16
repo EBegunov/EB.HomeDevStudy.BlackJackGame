@@ -4,9 +4,9 @@ using System.Text;
 
 namespace EB.HomeDevStudy.Main.View
 {
-    class EndGame
+    class RestartGame
     {
-        public void End()
+        public void Restart()
         {
             Console.WriteLine("********************************************************************************************");
             Console.WriteLine("");
