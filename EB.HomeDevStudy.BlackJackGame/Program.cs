@@ -9,28 +9,12 @@ namespace EB.HomeDevStudy.Main
     {
         static void Main(string[] args)
         {
-
-            StartGame startGame = new StartGame();
-
-            startGame.Start();
-
-            string playerStartGame = Console.ReadLine();
-
-            Constants constants = new Constants();
-            
-            string[] playerLetter = constants.letterForStartGame;
-
-            if (playerLetter.Contains(playerStartGame))
-            {
-                //Начало игры
-            }
-            else
-            {
-                Console.WriteLine("Ну как хочешь. Надумаешь поиграть ты знаешь где меня искать");
-            }
-
-
-
+            Game game = new Game();
+            game.Start();
         }
     }
 }
+
+
+    
+
